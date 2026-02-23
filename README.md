@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Veer Pratap Ranawat</h1>
+<h1 align="center">Hi, I'm Veer Pratap Ranawat</h1>
 <h3 align="center">Cybersecurity Enthusiast | Full-Stack Developer | Innovator | Photographer 📸</h3>
 
 <p align="center">
@@ -51,8 +51,8 @@ Passionate about building secure, scalable systems and blending creativity with 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VeerDev-hub&show_icons=true&theme=tokyonight"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VeerDev-hub&layout=compact&theme=tokyonight"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=VeerDev-hub&show_icons=true&theme=tokyonight&cache_seconds=1800"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VeerDev-hub&layout=compact&theme=tokyonight&cache_seconds=1800"/>
 </p>
 
 ---
