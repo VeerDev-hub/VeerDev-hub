@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Veer Pratap Singh — Developer, photographer, poet">
+  <defs>
+    <clipPath id="card"><rect width="1200" height="340" rx="20"/></clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <linearGradient id="veil" x1="0" x2="1">
+      <stop offset="0" class="veil" stop-opacity="1"/>
+      <stop offset="0.45" class="veil" stop-opacity="0.85"/>
+      <stop offset="1" class="veil" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .bg     { fill: #0a0a0b; }
+      .veil   { stop-color: #0a0a0b; }
+      .stroke { stroke: #ffffff14; }
+      .strong { fill: #fafafa; }
+      .muted  { fill: #a1a1aa; }
+      .faint  { fill: #71717a; }
+      .accent { fill: #a5b4fc; }
+      .blob   { opacity: 0.55; }
+      @media (prefers-color-scheme: light) {
+        .bg     { fill: #fafafa; }
+        .veil   { stop-color: #fafafa; }
+        .stroke { stroke: #0000000f; }
+        .strong { fill: #09090b; }
+        .muted  { fill: #52525b; }
+        .faint  { fill: #a1a1aa; }
+        .accent { fill: #4f46e5; }
+        .blob   { opacity: 0.35; }
+      }
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect class="bg" width="1200" height="340"/>
+
+    <!-- drifting colour field -->
+    <g class="blob" filter="url(#blur)">
+      <circle cx="900" cy="110" r="130" fill="#6366f1">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -60 50; 30 20; 0 0" dur="18s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="230" r="120" fill="#ec4899">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -50 -40; -90 10; 0 0" dur="22s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="820" cy="260" r="100" fill="#22d3ee">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 70 -30; 20 -70; 0 0" dur="20s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <rect width="1200" height="340" fill="url(#veil)"/>
+  </g>
+  <rect class="stroke" x="0.5" y="0.5" width="1199" height="339" rx="20" fill="none"/>
+
+  <!-- intro -->
+  <text class="muted" x="72" y="104" font-size="18">
+    Hi, I'm
+    <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
+  </text>
+  <text class="strong" x="69" y="168" font-size="58" font-weight="650" letter-spacing="-1.5">
+    Veer Pratap Singh
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3;1" dur="1.2s" fill="freeze"/>
+  </text>
+  <text class="muted" x="72" y="210" font-size="20">
+    Developer, photographer and Hindi poet.
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" dur="1.6s" fill="freeze"/>
+  </text>
+
+  <!-- rotating line -->
+  <text class="faint" x="72" y="262" font-size="17">Currently building</text>
+  <g font-size="17" font-weight="600">
+    <text class="accent" x="232" y="262" opacity="0">full-stack web apps
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.29;0.33;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+    </text>
+    <text class="accent" x="232" y="262" opacity="0">small AI tools
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.29;0.33;1" dur="9s" begin="3s" repeatCount="indefinite"/>
+    </text>
+    <text class="accent" x="232" y="262" opacity="0">Arduino &amp; Pi experiments
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.29;0.33;1" dur="9s" begin="6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
