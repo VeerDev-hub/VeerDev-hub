@@ -1,86 +1,57 @@
-<a href="https://github.com/VeerDev-hub?tab=repositories">
-  <img src="assets/hero.svg" width="100%" alt="Veer Pratap Singh — Developer, photographer, poet"/>
+<a href="https://veerpratapsingh-one.vercel.app">
+  <img src="assets/hero.gif" width="100%" alt="Terminal boot sequence, then a fetch screen with a rotating ASCII prompt. Veer Pratap Singh: full-stack developer, security, IoT, AI. Languages: Java, Python, JavaScript, SQL. Web: React, Node.js, HTML, CSS. Data: PostgreSQL. Tools: AWS, Git, Linux. Lab: Arduino, Raspberry Pi, ESP32. Learning DSA, security and advanced web. Offline: photography and Hindi poetry."/>
 </a>
 
-<p align="center">
-  I build web apps that are fast and clean, and I like experimenting with hardware and AI.<br/>
-  Away from the keyboard I take photographs and write poetry in Hindi.
-</p>
+### `$ cat links.txt`
+
+<pre>
+portfolio   <a href="https://veerpratapsingh-one.vercel.app">veerpratapsingh-one.vercel.app</a>
+email       <a href="mailto:veerprataps.ranawat@gmail.com">veerprataps.ranawat@gmail.com</a>
+code        <a href="https://github.com/VeerDev-hub?tab=repositories">github.com/VeerDev-hub</a>
+</pre>
+
+### `$ ./nexus-soc --demo`
+
+<a href="https://github.com/VeerDev-hub/NEXUS-SOC">
+  <img src="assets/nexus.gif" width="100%" alt="NEXUS-SOC demo: a supervisor agent routes an alert through triage, intel, assets, analysis and response agents, a human approves the action, and the report agent closes the case."/>
+</a>
+
+**[NEXUS-SOC](https://github.com/VeerDev-hub/NEXUS-SOC)** is a security operations center where seven AI agents investigate each alert and humans decide what happens next. Risky actions wait for a person to approve them.
+
+### `$ ls ~/projects`
+
+<pre>
+security/
+├── <a href="https://github.com/VeerDev-hub/NEXUS-SOC">NEXUS-SOC</a>          multi-agent SOC with human approval
+├── <a href="https://github.com/VeerDev-hub/IntrusionBench">IntrusionBench</a>     intrusion detection benchmark, 4 datasets, 5 models
+└── <a href="https://github.com/VeerDev-hub/port-scanner-webapp">Recon Console</a>      port scanner with hand-built packets, CLI and web
+
+web/
+├── <a href="https://github.com/VeerDev-hub/Analytica-2.0">Analytica Studio</a>   explore, clean and prepare data for ML
+├── <a href="https://github.com/VeerDev-hub/Klaro">Klaro</a>              chat with any document, answers are cited
+└── <a href="https://github.com/VeerDev-hub/VITAP-Connect">VITAP Connect</a>      find teammates and run projects at VIT-AP
+
+ai/
+└── <a href="https://github.com/VeerDev-hub/PulmoSight">PulmoSight</a>         reads chest X-rays for signs of TB (research)
+
+hardware/
+├── <a href="https://github.com/VeerDev-hub/SMART-GYM-SYSTEM">Smart Gym</a>          Arduino + ESP32 + pose detection for lifters
+└── <a href="https://github.com/VeerDev-hub/esp32-fake-virus-prank">ESP32 Virus Prank</a>  harmless fake-hack captive portal
+</pre>
+
+### `$ htop`
+
+<img src="assets/htop.gif" width="100%" alt="Process monitor. Running: learning DSA, building open-source security tools, contributing to real projects. Sleeping: ESP32 board monitor, Postgres, camera waiting for good light, Hindi poetry."/>
+
+### `$ git log --graph`
 
 <p align="center">
-  <a href="mailto:veerprataps.ranawat@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/VeerDev-hub?tab=repositories"><b>Projects</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/VeerDev-hub?tab=stars"><b>Stars</b></a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VeerDev-hub&bg_color=1d2021&color=ebdbb2&line=fabd2f&point=fb4934&area=true&area_color=d79921&hide_border=true&radius=0&hide_title=true" width="100%" alt="Contribution activity over the last month"/>
+  <img src="https://streak-stats.demolab.com/?user=VeerDev-hub&hide_border=true&border_radius=0&background=1d2021&stroke=504945&ring=fabd2f&fire=fe8019&currStreakNum=fbf1c7&currStreakLabel=fabd2f&sideNums=fbf1c7&sideLabels=8ec07c&dates=a89984&card_width=832" width="100%" alt="Contribution streak"/>
 </p>
 
-<br/>
+### `$ cat ~/setup`
 
-<details open>
-<summary><b>&nbsp;Now</b></summary>
-<br/>
+<img src="assets/room.gif" width="100%" alt="Pixel art of a night desk: a developer in headphones facing a monitor of scrolling code, rain over a city in the window, a ginger cat, a penguin plush, a camera on the shelf, and a poster with the Hindi word for poetry."/>
 
-- Getting sharper at DSA and problem solving
-- Building open-source tools
-- Contributing to real-world projects
-
-</details>
-
-<details>
-<summary><b>&nbsp;What I like building</b>&nbsp;&nbsp;<sub>click to open</sub></summary>
-<br/>
-
-| | |
-|:--|:--|
-| **Full-stack apps** | Clean, fast, and built to scale |
-| **AI and automation** | Small tools that do the boring work |
-| **Hardware** | Arduino and Raspberry Pi experiments |
-| **Security** | Open-source utilities and learning how things break |
-
-</details>
-
-<details>
-<summary><b>&nbsp;Off-screen</b>&nbsp;&nbsp;<sub>click to open</sub></summary>
-<br/>
-
-Photography and Hindi poetry. I like blending creativity with technology.
-
-</details>
-
-<br/>
-
-### Stack
-
-<p>
-  <a href="https://dev.java"><img src="https://skillicons.dev/icons?i=java" height="44" alt="Java" title="Java"/></a>
-  <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=py" height="44" alt="Python" title="Python"/></a>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" height="44" alt="JavaScript" title="JavaScript"/></a>
-  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" height="44" alt="HTML" title="HTML"/></a>
-  <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" height="44" alt="CSS" title="CSS"/></a>
-  <a href="https://nodejs.org"><img src="https://skillicons.dev/icons?i=nodejs" height="44" alt="Node.js" title="Node.js"/></a>
-  <a href="https://react.dev"><img src="https://skillicons.dev/icons?i=react" height="44" alt="React" title="React"/></a>
-  <a href="https://www.postgresql.org"><img src="https://skillicons.dev/icons?i=postgres" height="44" alt="PostgreSQL" title="PostgreSQL"/></a>
-  <a href="https://aws.amazon.com"><img src="https://skillicons.dev/icons?i=aws" height="44" alt="AWS" title="AWS"/></a>
-  <a href="https://git-scm.com"><img src="https://skillicons.dev/icons?i=git" height="44" alt="Git" title="Git"/></a>
-  <a href="https://www.kernel.org"><img src="https://skillicons.dev/icons?i=linux" height="44" alt="Linux" title="Linux"/></a>
-  <a href="https://www.arduino.cc"><img src="https://skillicons.dev/icons?i=arduino" height="44" alt="Arduino" title="Arduino"/></a>
-  <a href="https://www.raspberrypi.com"><img src="https://skillicons.dev/icons?i=raspberrypi" height="44" alt="Raspberry Pi" title="Raspberry Pi"/></a>
-</p>
-
-<details>
-<summary><b>&nbsp;Activity</b>&nbsp;&nbsp;<sub>click to open</sub></summary>
-<br/>
-
-<p>
-  <a href="https://github.com/VeerDev-hub?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api?username=VeerDev-hub&show_icons=true&hide_border=true&hide_title=true&count_private=true&bg_color=00000000&text_color=8b949e&icon_color=818cf8" height="150" alt="GitHub stats"/>
-  </a>
-  <a href="https://github.com/VeerDev-hub">
-    <img src="https://streak-stats.demolab.com/?user=VeerDev-hub&hide_border=true&background=00000000&ring=818cf8&fire=ec4899&currStreakLabel=818cf8&sideLabels=8b949e&currStreakNum=8b949e&sideNums=8b949e&dates=8b949e&stroke=8b949e33" height="150" alt="GitHub streak"/>
-  </a>
-</p>
-
-</details>
-
-<br/>
-
-<p align="center"><sub><i>Code is art.</i></sub></p>
+<img src="assets/footer.gif" width="100%" alt="A pixel penguin walks along a tmux status bar reading: stay secure, keep building."/>
